@@ -1,38 +1,69 @@
+/* Custom propierties 
+Estos son para colocar colores, fuentes, funciones etc personalizadas
+para poder colocar algo por ejemplo una letra personalizada de acuerdo al root sería;
+    :root{
+    --secundario: #bcbc;
+    }
+
+    ClaseFicticia{
+
+    color: var(--secundario);
+
+    }
+
+    De esta forma vamos a poder colocar custom propierties, y vamos a tener mejor control de los colores, fuentes, estilos etc.
+*/
 :root{
     --primario:#6935FE;
+    --fondo:#e1e5ee;
     --fuente-primaria: 'Roboto', sans-serif;
 }
 
 body{
     font-family: var(--fuente-primaria)!important;
-    background-color: #e1e5ee;
+    background-color: var(--fondo)
 }
 
 .color-fondo{
     background-color: var(--primario);
     padding: 15px;
 }
-
+.navbar-logo{
+    width: 12rem !important;
+    margin-right: 5rem !important;
+}
 .links-navbar{
     font-weight: bold;
     text-shadow:10px 4px 1px rgba(0,0,0,0.1);
 }
 
+.links-navbar:hover{
+    color: var(--primario);
+    text-shadow:10px 4px 1px rgba(0,0,0,0.1);
+    /* transition: all 0.75s; */
+    cursor: pointer;
+    text-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    transform: scale(1.5);
+    transition: all 0.8s ease;
+
+
+
+}
+
 .btn-registro{
-    background-color: #fff;
-    padding: 10px;
+    background-color: var(--fondo);
+    padding: 10px 25px;
     border-radius: 30px;
     color: var(--primario)!important;
     font-weight: bold;
     box-shadow: 4px 3px 1px rgba(0,0,0,0.1);
 }
 
-
 .btn-registro:hover{
     cursor: pointer;
     box-shadow: 15px 8px 1px rgba(0,0,0,0.1);
-    transition: 0.5s;
     transform: scale(1.1);
+    transition: all 0.8s ease;
 }
 
 

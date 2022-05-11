@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Se Busca Roomie</title>
+    <title>Rummy</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,39 +17,90 @@
 <body>
     <!-- Inicia Menú de navegación -->
     <div class="container-nav sticky-top color-fondo">
-            <div class="navbar navbar-expand-lg container navbar-light" >
-                <a href="index.html" class="nav-link active d-none d-lg-inline">
-                    <img class="img-fluid w-50" src="assets/img/LogoHorizontal-Rojo.svg" alt="">
-                </a>
-                <a href="index.html">
-                    <img src="assets/img/LOGOCOLOREADO.svg" alt="Logo" class="
+        <div class="navbar navbar-expand-lg container navbar-light">
+            <a href="index.html" class="nav-link active d-none d-lg-inline">
+                <img class="img-fluid navbar-logo" src="assets/img/LogoHorizontal-Rojo.svg" alt="">
+            </a>
+            <a href="index.html">
+                <img src="assets/img/LOGOCOLOREADO.svg" alt="Logo" class="
                     nav-link active d-lg-none d-inline
                     navbar-brand d-lg-none w-25">
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navegacion">
-                        <span class="navbar-toggler-icon"></span>
-                </button>
-                <div id="navegacion" class="collapse navbar-collapse">
-                    <nav
-                        class="navbar-nav container d-flex flex-md-row text-center justify-content-md-between align-items-center">
-
-                            <a href="#" class='text-white text-decoration-none my-2 links-navbar'>Productos</a>
-                            <a href="#" class='text-white text-decoration-none my-2 links-navbar'>Sobre Nosotros</a>
-                            <a href="#" class='text-white text-decoration-none my-2 links-navbar'>Iniciar Sesión</a>
-                            <!-- btn-registro es la clase de css que permite personalizarlo -->
-                            <a href="#" class='text-white text-decoration-none btn-registro my-2'>Registrate</a>
-                    </nav>
-                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navegacion">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="navegacion" class="collapse navbar-collapse">
+                <nav
+                    class="navbar-nav container d-flex flex-md-row text-center justify-content-md-between align-items-center">
+                    <a href="#" class='text-white text-decoration-none my-2 links-navbar'>Productos</a>
+                    <a href="#" class='text-white text-decoration-none my-2 links-navbar'>Sobre Nosotros</a>
+                    <a href="#" class='text-white text-decoration-none my-2 links-navbar'>Iniciar Sesión</a>
+                    <!-- btn-registro es la clase de css que permite personalizarlo -->
+                    <a href="#" class='text-white text-decoration-none btn-registro my-2'>Registrate</a>
+                </nav>
             </div>
+        </div>
     </div> <!-- Menu de navegación superior -->
 
+    <section> <!--Inicia Hero-->
 
-    <!-- Aquí empezamos footer -->
+      
+    </section> <!--Fin Hero-->
 
+    <!-- Inicia Footer -->
+    <footer class="container-fluid text-center"> <!-- container-fluid es para que se ajuste al 100% de la pantalla 
+    Nota: Checar como se ve el final del text center
+    -->
+        <div class="row p-5 pb-2 color-fondo text-white">
+            <div class="col-md-6 col-lg-3">  
+                <h5 class="font-weight-bold fw-bold ps-5 h1">RUMMY</h5> 
+                <a href="index.html">
+                <img src="assets/img/LOGOCOLOREADO.svg" alt="Imagen de logo" class="w-50 img-fluid ms-3">
+            </a>
+            </div>
+            <div class="col-md-12 col-md-6 col-lg-3">   
+                <p class="fw-bold fs-5">Información</p>
+                <ul class="list-unstyled">
+                    <li class="fs-5"><a href="#" class="text-white text-decoration-none">Productos</a></li>
+                    <li class="fs-5"><a href="#" class="text-white text-decoration-none">Sobre Nosotros</a></li>
+                    <li class="fs-5"><a href="#" class="text-white text-decoration-none">Iniciar Sesión</a></li>
+                    <li class="fs-5"><a href="#" class="text-white text-decoration-none">Registrate</a></li>
+                </ul>
+            </div>
+            <div class="col-md-12 col-md-6 col-lg-3">   
+                <p class="fw-bold fs-5">Nosotros</h3>
+                <ul class="list-unstyled">
+                    <li class="fs-5"><a href="#" class="text-white text-decoration-none">Equipo</a></li>
+                    <li class="fs-5"><a href="#" class="text-white text-decoration-none">Contacto</a></li>
+                    <li class="fs-5"><a href="#" class="text-white text-decoration-none">Políticas de Privacidad</a></li>
+                    <li class="fs-5"><a href="#" class="text-white text-decoration-none">Términos y Condiciones</a></li>
+                </ul>
+            </div>
+            <div class="col-md-12 col-md-6 col-lg-3">   
+                <p class="fw-bold fs-5">Contactanos</h3>
+                <ul class="list-unstyled ">
+                    <li class="fs-5"><a href="#" class="text-decoration-none text-white">
+                        <i class="fab fa-facebook-square"></i>
+                        Facebook</a></li>
+                    <li class="fs-5"><a href="#" class=" text-decoration-none text-white">
+                        <i class="fab fa-instagram"></i>
+                        Instagram</a></li>
+                    <li class="fs-5"><a href="#" class=" text-decoration-none text-white">
+                        <i class="fab fa-twitter-square"></i>
+                        Twitter</a></li>
+                </ul>
+            </div>
+            <div class="col-md-12 pt-4">
+                <p class='text-center text-light fw-bold'>
+                   <a href="index.html" class="text-decoration-none text-white">RUMMY</a>  - Todos los derechos &copy; 2022</p>
+            </div>
+        </div>
+    </footer> <!-- Footer -->
+   
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-        crossorigin="anonymous"></script>
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>
